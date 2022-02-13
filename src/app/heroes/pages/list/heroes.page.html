@@ -5,10 +5,14 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <app-hero-list
-    [heroes]="heroes"
-    (heroClick)="goToHeroDetail($event)"
-  ></app-hero-list>
+  <ion-row class="ion-justify-content-center">
+    <ion-col size-md="8" size-lg="6">
+      <app-hero-list
+        [heroes]="heroes"
+        (heroClick)="goToHeroDetail($event)"
+      ></app-hero-list>
+    </ion-col>
+  </ion-row>
   <ion-row class="ion-margin-top">
     <ion-col class="ion-text-center">
       <ion-spinner *ngIf="loading"></ion-spinner>
