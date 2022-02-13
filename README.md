@@ -23,3 +23,13 @@ npm i
 ```bash
 ionic serve
 ```
+
+
+- To open the android project in Android Studio run:
+
+```bash
+ionic build
+ionic cap sync android
+npx cap open android
+```
+
