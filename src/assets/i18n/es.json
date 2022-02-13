@@ -1,0 +1,11 @@
+{
+  "heroes-list-title": "Listado de Superheroes",
+  "heroes-list-error": "Hubo un error al obtener los superheroes. Por favor intentalo de nuevo.",
+  "hero-other-information": "Otra información",
+  "alert-error-header": "Error",
+  "alert-error-cancel": "cancelar",
+  "alert-error-retry": "reintentar",
+  "comics-quantity-label": "Cantidad de Comics disponibles:",
+  "series-quantity-label": "Cantidad de Series disponibles:",
+  "stories-quantity-label": "Cantidad de Stories disponibles:"
+}

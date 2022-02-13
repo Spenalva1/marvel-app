@@ -1,0 +1,17 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title mode="ios">{{ title }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <app-hero-list
+    [heroes]="heroes"
+    (heroClick)="goToHeroDetail($event)"
+  ></app-hero-list>
+  <ion-row class="ion-margin-top">
+    <ion-col class="ion-text-center">
+      <ion-spinner *ngIf="loading"></ion-spinner>
+    </ion-col>
+  </ion-row>
+</ion-content>

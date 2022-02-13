@@ -1,0 +1,13 @@
+<ion-list *ngIf="heroes.length" class="hero-list">
+  <ion-item
+    *ngFor="let hero of heroes"
+    class="hero-item"
+    lines="full"
+    (click)="onHeroClick(hero)"
+  >
+    <ion-thumbnail slot="start" class="hero-thumbnail">
+      <img [src]="hero.thumbnail" [alt]="hero.name + ' image'" />
+    </ion-thumbnail>
+    <ion-label>{{ hero.name }}</ion-label>
+  </ion-item>
+</ion-list>

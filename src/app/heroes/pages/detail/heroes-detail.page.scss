@@ -1,0 +1,26 @@
+ion-content {
+  .hero-image {
+    border-radius: 50px;
+  }
+
+  .hero-info {
+    background: transparent;
+
+    &-header {
+      font-weight: bold;
+      border-top: var(--border-simple);
+    }
+
+    &-item {
+      border-left: var(--border-simple);
+      border-right: var(--border-simple);
+      border-top: var(--border-simple);
+
+      &:last-child {
+        border-bottom: var(--border-simple);
+      }
+
+      --background: transparent;
+    }
+  }
+}
